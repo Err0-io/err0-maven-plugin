@@ -7,13 +7,30 @@
 
   <groupId>io.err0</groupId>
   <artifactId>err0-maven-plugin</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>maven-plugin</packaging>
 
   <name>err0-maven-plugin Maven Plugin</name>
-
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <description>Maven plugin to use the err0agent</description>
+  <url>https://github.com/Err0-io/err0-maven-plugin</url>
+  <licenses>
+    <license>
+      <name>MIT license</name>
+      <url>https://github.com/Err0-io/err0-maven-plugin/blob/master/LICENSE.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>err0package</id>
+      <name>Err0.io packages</name>
+      <email>package@err0.io</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/Err0-io/err0-maven-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:Err0-io/err0-maven-plugin.git</developerConnection>
+    <url>https://github.com/Err0-io/err0-maven-plugin</url>
+  </scm>
 
   <prerequisites>
     <maven>${maven.version}</maven>
@@ -131,20 +148,6 @@
               <id>attach-javadocs</id>
               <goals>
                 <goal>jar</goal>
-              </goals>
-            </execution>
-          </executions>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.5</version>
-          <executions>
-            <execution>
-              <id>sign-artifacts</id>
-              <phase>verify</phase>
-              <goals>
-                <goal>sign</goal>
               </goals>
             </execution>
           </executions>
