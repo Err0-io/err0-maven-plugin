@@ -35,5 +35,5 @@ $ mvn io.err0:err0-maven-plugin:insert
 ### Check that codes are canonical and commit to err0
 
 ```
-$ mvn io.err0:err0-maven-plugin:insert
+$ mvn io.err0:err0-maven-plugin:check
 ```
