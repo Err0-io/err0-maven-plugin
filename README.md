@@ -1,5 +1,7 @@
 # err0 maven plugin
 
+Note: in the below, you should be able to omit the <version> in which case you will get the most recent version.
+
 ## Add to your project's pom.xml: 
 
 ```
@@ -8,7 +10,7 @@
         <plugin>
           <groupId>io.err0</groupId>
           <artifactId>err0-maven-plugin</artifactId>
-          <version>1.0-SNAPSHOT</version>
+          <version>1.0.0</version>
           <configuration>
             <token>/path/to/token.json</token>
           </configuration>
@@ -25,7 +27,7 @@ You can specify the directory that contains the downloaded err0agent jar file wi
         <plugin>
           <groupId>io.err0</groupId>
           <artifactId>err0-maven-plugin</artifactId>
-          <version>1.0-SNAPSHOT</version>
+          <version>1.0.0</version>
           <configuration>
             <token>/path/to/token.json</token>
             <agentDir>~/.err0agent</agentDir>
@@ -39,7 +41,7 @@ You can specify the directory which is the root for the err0agent similarly, nor
         <plugin>
           <groupId>io.err0</groupId>
           <artifactId>err0-maven-plugin</artifactId>
-          <version>1.0-SNAPSHOT</version>
+          <version>1.0.0</version>
           <configuration>
             <token>/path/to/token.json</token>
             <baseDir>./src</baseDir>
