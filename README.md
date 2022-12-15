@@ -1,6 +1,6 @@
 # err0 maven plugin
 
-Note: in the below, you should be able to omit the <version> in which case you will get the most recent version.
+Note: in the below, you should be able to omit the ```<version>``` in which case you will get the most recent version.
 
 ## Add to your project's pom.xml: 
 
